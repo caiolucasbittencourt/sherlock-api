@@ -34,7 +34,6 @@ export function createRateLimiter(options: RateLimitOptions) {
   return (req: Request, res: Response, next: NextFunction): void => {
     const key = req.ip ?? req.socket.remoteAddress ?? "unknown";
     const now = Date.now();
-    const windowStart = now - windowMs;
 
     let entry = store[key];
 

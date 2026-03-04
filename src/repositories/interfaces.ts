@@ -27,4 +27,4 @@ export interface ICaseRepository extends IBaseRepository<Case> {
 /**
  * Character repository interface
  */
-export interface ICharacterRepository extends IBaseRepository<Character> {}
+export type ICharacterRepository = IBaseRepository<Character>;
