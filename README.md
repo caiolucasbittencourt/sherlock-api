@@ -5,7 +5,7 @@ Free REST API for Sherlock Holmes quotes, cases, and characters from the public 
 ## Base URL
 
 ```
-https://sherlockapi.co/api/v1
+https://sherlockholmes-api.vercel.app/api/v1
 ```
 
 ## Endpoints
@@ -90,13 +90,15 @@ GET /health
 ### cURL
 
 ```bash
-curl https://sherlockapi.co/api/v1/quotes/random
+curl https://sherlockholmes-api.vercel.app/api/v1/quotes/random
 ```
 
 ### JavaScript
 
 ```javascript
-const response = await fetch("https://sherlockapi.co/api/v1/quotes/random");
+const response = await fetch(
+  "https://sherlockholmes-api.vercel.app/api/v1/quotes/random",
+);
 const data = await response.json();
 console.log(data.data.text);
 ```
@@ -106,43 +108,9 @@ console.log(data.data.text);
 ```python
 import requests
 
-response = requests.get('https://sherlockapi.co/api/v1/quotes/random')
+response = requests.get('https://sherlockholmes-api.vercel.app/api/v1/quotes/random')
 data = response.json()
 print(data['data']['text'])
-```
-
----
-
-## Development
-
-### Setup
-
-```bash
-git clone https://github.com/caiolucasbittencourt/sherlock-api.git
-cd sherlock-api
-npm install
-npm run dev
-```
-
-### Project Structure
-
-```
-src/
-├── api/           # Vercel serverless entry point
-├── controllers/   # Endpoint logic
-├── data/          # Static JSON data
-├── middlewares/   # Rate limiter, error handler
-├── models/        # Zod schemas and TypeScript types
-├── repositories/  # Repository Pattern for data access
-├── routes/        # Route definitions
-├── app.ts         # Express configuration
-└── server.ts      # Development entry point
-```
-
-### Deploy
-
-```bash
-vercel
 ```
 
 ## License
