@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sherlock Holmes API</title>
+    <meta
+      name="description"
+      content="Free JSON API for Sherlock Holmes quotes, cases, and characters."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Crimson+Text:wght@400;600&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Crimson Text", "EB Garamond", Georgia, serif;
+        font-size: 16px;
+        line-height: 1.8;
+        color: #d4c4a8;
+        background: #1a1208;
+        padding: 40px 20px;
+        max-width: 720px;
+        margin: 0 auto;
+      }
+
+      a {
+        color: #7eb89a;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      h1 {
+        font-family: "Playfair Display", "Old Standard TT", Georgia, serif;
+        font-size: 18px;
+        font-weight: normal;
+        margin-bottom: 30px;
+      }
+
+      h2 {
+        display: inline-block;
+        font-family: "Playfair Display", "Old Standard TT", Georgia, serif;
+        font-size: 14px;
+        font-weight: 700;
+        color: #d4c4a8;
+        background: #2d4a3e;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding: 10px 18px;
+        margin: 40px 0 20px;
+        border: 1px solid #d4c4a8;
+      }
+
+      p {
+        margin-bottom: 12px;
+      }
+
+      code {
+        font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+        font-size: 14px;
+        background: #2a1810;
+        padding: 2px 5px;
+        color: #7eb89a;
+      }
+
+      .endpoint {
+        background: #2a1810;
+        border: 1px solid #3d2317;
+        padding: 12px 16px;
+        margin: 10px 0;
+        font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+        font-size: 14px;
+      }
+
+      .method {
+        color: #7eb89a;
+        font-weight: bold;
+      }
+
+      .response {
+        background: #2a1810;
+        border: 1px solid #3d2317;
+        padding: 15px;
+        margin: 15px 0;
+        font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+        font-size: 13px;
+        white-space: pre-wrap;
+        line-height: 1.6;
+      }
+
+      .label {
+        font-size: 12px;
+        color: #8b7355;
+        margin-bottom: 5px;
+      }
+
+      hr {
+        border: none;
+        text-align: center;
+        margin: 30px 0;
+        line-height: 0;
+        overflow: visible;
+      }
+
+      hr::before {
+        content: "———  ◆  ———";
+        color: #3d2317;
+        font-size: 14px;
+        letter-spacing: 2px;
+      }
+
+      footer {
+        margin-top: 50px;
+        padding-top: 30px;
+        border-top: 1px solid #3d2317;
+        font-size: 12px;
+        color: #8b7355;
+        text-align: center;
+      }
+
+      footer p {
+        margin-bottom: 8px;
+      }
+
+      .footer-links {
+        margin: 15px 0;
+      }
+
+      .footer-links a {
+        margin: 0 10px;
+        color: #8b7355;
+        text-decoration: none;
+        border: 1px solid #3d2317;
+        padding: 5px 12px;
+        display: inline-block;
+      }
+
+      .footer-links a:hover {
+        background: #2a1810;
+        color: #d4c4a8;
+      }
+
+      .legal {
+        font-size: 10px;
+        color: #5c4033;
+        max-width: 400px;
+        margin: 20px auto 0;
+        line-height: 1.6;
+      }
+
+      .logo {
+        display: block;
+        max-width: 500px;
+        margin: 0 auto 0;
+        filter: invert(24%) sepia(15%) saturate(1100%) hue-rotate(108deg)
+          brightness(95%) contrast(90%);
+      }
+
+      .logo-text {
+        display: inline-block;
+        font-family: "Playfair Display", "Old Standard TT", Georgia, serif;
+        font-size: 22px;
+        font-weight: 700;
+        font-variant: small-caps;
+        color: #d4c4a8;
+        background: #3d2317;
+        text-align: center;
+        padding: 16px 28px;
+        margin: 0 auto 40px;
+        letter-spacing: 4px;
+        border: 4px double #d4c4a8;
+      }
+
+      .logo-container {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo-container">
+      <span class="logo-text">— SHERLOCKAPI.CO —</span>
+    </div>
+
+    <h1>
+      <a href="/">sherlockapi.co</a> is a free JSON API for hand curated
+      Sherlock Holmes quotes, cases, and characters from the public domain works
+      of
+      <a href="https://en.wikipedia.org/wiki/Arthur_Conan_Doyle" target="_blank"
+        >Sir Arthur Conan Doyle</a
+      >.
+      <a href="https://github.com" target="_blank">Read more</a>
+    </h1>
+
+    <h2>Usage</h2>
+
+    <p>Retrieve a random Sherlock Holmes quote in JSON format.</p>
+
+    <div class="endpoint">
+      <span class="method">GET</span>
+      https://sherlockapi.co/api/v1/quotes/random
+    </div>
+
+    <p class="label">Example response:</p>
+    <div class="response">
+      { "id": "q001", "text": "When you have eliminated the impossible, whatever
+      remains, however improbable, must be the truth.", "source": "The Sign of
+      the Four", "character": "Sherlock Holmes", "year": 1890 }
+    </div>
+
+    <hr />
+
+    <p>
+      Retrieve all cases (4 novels + 56 short stories). Pass
+      <code>type</code> to filter.
+    </p>
+
+    <div class="endpoint">
+      <span class="method">GET</span> https://sherlockapi.co/api/v1/cases
+    </div>
+
+    <div class="endpoint">
+      <span class="method">GET</span>
+      https://sherlockapi.co/api/v1/cases?type={novel|short_story}
+    </div>
+
+    <hr />
+
+    <p>Retrieve the list of main characters.</p>
+
+    <div class="endpoint">
+      <span class="method">GET</span> https://sherlockapi.co/api/v1/characters
+    </div>
+
+    <hr />
+
+    <p>Free text search.</p>
+
+    <div class="endpoint">
+      <span class="method">GET</span>
+      https://sherlockapi.co/api/v1/search?q={query}
+    </div>
+
+    <h2>GitHub</h2>
+
+    <p>Source code and full documentation available on GitHub.</p>
+
+    <div class="endpoint">
+      <span class="method">REPO</span>
+      https://github.com/your-username/sherlock-api
+    </div>
+
+    <footer>
+      <p>
+        Hosted on <a href="https://vercel.com" target="_blank">Vercel</a>. All
+        content from public domain works.
+      </p>
+
+      <div class="footer-links">
+        <a href="https://github.com" target="_blank">GitHub</a>
+      </div>
+
+      <p class="legal">
+        <strong>Legal disclaimer:</strong> This API is not affiliated with any
+        Arthur Conan Doyle estate. All content is from works in the public
+        domain. Provided for educational purposes. Information is not guaranteed
+        to be accurate.
+      </p>
+    </footer>
+  </body>
+</html>

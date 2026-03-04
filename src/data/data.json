@@ -1,0 +1,826 @@
+{
+  "quotes": [
+    {
+      "id": "q001",
+      "text": "When you have eliminated the impossible, whatever remains, however improbable, must be the truth.",
+      "character": "Sherlock Holmes",
+      "book": "The Sign of the Four",
+      "year": 1890
+    },
+    {
+      "id": "q002",
+      "text": "Elementary, my dear Watson.",
+      "character": "Sherlock Holmes",
+      "book": "The Crooked Man",
+      "year": 1893
+    },
+    {
+      "id": "q003",
+      "text": "The game is afoot!",
+      "character": "Sherlock Holmes",
+      "book": "The Adventure of the Abbey Grange",
+      "year": 1904
+    },
+    {
+      "id": "q004",
+      "text": "There is nothing more deceptive than an obvious fact.",
+      "character": "Sherlock Holmes",
+      "book": "The Boscombe Valley Mystery",
+      "year": 1891
+    },
+    {
+      "id": "q005",
+      "text": "It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts.",
+      "character": "Sherlock Holmes",
+      "book": "A Scandal in Bohemia",
+      "year": 1891
+    },
+    {
+      "id": "q006",
+      "text": "I never guess. It is a shocking habit — destructive to the logical faculty.",
+      "character": "Sherlock Holmes",
+      "book": "The Sign of the Four",
+      "year": 1890
+    },
+    {
+      "id": "q007",
+      "text": "The world is full of obvious things which nobody by any chance ever observes.",
+      "character": "Sherlock Holmes",
+      "book": "The Hound of the Baskervilles",
+      "year": 1902
+    },
+    {
+      "id": "q008",
+      "text": "Crime is common. Logic is rare. Therefore it is upon the logic rather than upon the crime that you should dwell.",
+      "character": "Sherlock Holmes",
+      "book": "The Adventure of the Copper Beeches",
+      "year": 1892
+    },
+    {
+      "id": "q009",
+      "text": "Data! Data! Data! I can't make bricks without clay.",
+      "character": "Sherlock Holmes",
+      "book": "The Adventure of the Copper Beeches",
+      "year": 1892
+    },
+    {
+      "id": "q010",
+      "text": "You see, but you do not observe. The distinction is clear.",
+      "character": "Sherlock Holmes",
+      "book": "A Scandal in Bohemia",
+      "year": 1891
+    },
+    {
+      "id": "q011",
+      "text": "My mind rebels at stagnation. Give me problems, give me work, give me the most abstruse cryptogram, or the most intricate analysis, and I am in my own proper atmosphere.",
+      "character": "Sherlock Holmes",
+      "book": "The Sign of the Four",
+      "year": 1890
+    },
+    {
+      "id": "q012",
+      "text": "Mediocrity knows nothing higher than itself; but talent instantly recognizes genius.",
+      "character": "Dr. John Watson",
+      "book": "The Valley of Fear",
+      "year": 1915
+    },
+    {
+      "id": "q013",
+      "text": "The emotional qualities are antagonistic to clear reasoning.",
+      "character": "Sherlock Holmes",
+      "book": "The Sign of the Four",
+      "year": 1890
+    },
+    {
+      "id": "q014",
+      "text": "Detection is, or ought to be, an exact science and should be treated in the same cold and unemotional manner.",
+      "character": "Sherlock Holmes",
+      "book": "The Sign of the Four",
+      "year": 1890
+    },
+    {
+      "id": "q015",
+      "text": "How often have I said to you that when you have eliminated the impossible, whatever remains, however improbable, must be the truth?",
+      "character": "Sherlock Holmes",
+      "book": "The Sign of the Four",
+      "year": 1890
+    },
+    {
+      "id": "q016",
+      "text": "I cannot live without brainwork. What else is there to live for?",
+      "character": "Sherlock Holmes",
+      "book": "The Sign of the Four",
+      "year": 1890
+    },
+    {
+      "id": "q017",
+      "text": "It is of the highest importance in the art of detection to be able to recognize, out of a number of facts, which are incidental and which vital.",
+      "character": "Sherlock Holmes",
+      "book": "The Reigate Squire",
+      "year": 1893
+    },
+    {
+      "id": "q018",
+      "text": "I have no data yet. It is a capital mistake to theorize before you have all the evidence. It biases the judgment.",
+      "character": "Sherlock Holmes",
+      "book": "A Study in Scarlet",
+      "year": 1887
+    },
+    {
+      "id": "q019",
+      "text": "There is nothing like first-hand evidence.",
+      "character": "Sherlock Holmes",
+      "book": "A Study in Scarlet",
+      "year": 1887
+    },
+    {
+      "id": "q020",
+      "text": "From a drop of water a logician could infer the possibility of an Atlantic or a Niagara without having seen or heard of one or the other.",
+      "character": "Sherlock Holmes",
+      "book": "A Study in Scarlet",
+      "year": 1887
+    },
+    {
+      "id": "q021",
+      "text": "I ought to know by this time that when a fact appears to be opposed to a long train of deductions, it invariably proves to be capable of bearing some other interpretation.",
+      "character": "Sherlock Holmes",
+      "book": "A Study in Scarlet",
+      "year": 1887
+    },
+    {
+      "id": "q022",
+      "text": "To a great mind, nothing is little.",
+      "character": "Sherlock Holmes",
+      "book": "A Study in Scarlet",
+      "year": 1887
+    },
+    {
+      "id": "q023",
+      "text": "The little things are infinitely the most important.",
+      "character": "Sherlock Holmes",
+      "book": "A Case of Identity",
+      "year": 1891
+    },
+    {
+      "id": "q024",
+      "text": "Singularity is almost invariably a clue. The more featureless and commonplace a crime is, the more difficult it is to bring it home.",
+      "character": "Sherlock Holmes",
+      "book": "The Boscombe Valley Mystery",
+      "year": 1891
+    },
+    {
+      "id": "q025",
+      "text": "It has long been an axiom of mine that the little things are infinitely the most important.",
+      "character": "Sherlock Holmes",
+      "book": "A Case of Identity",
+      "year": 1891
+    },
+    {
+      "id": "q026",
+      "text": "I have trained myself to see what others overlook.",
+      "character": "Sherlock Holmes",
+      "book": "A Case of Identity",
+      "year": 1891
+    },
+    {
+      "id": "q027",
+      "text": "My name is Sherlock Holmes. It is my business to know what other people do not know.",
+      "character": "Sherlock Holmes",
+      "book": "The Adventure of the Blue Carbuncle",
+      "year": 1892
+    },
+    {
+      "id": "q028",
+      "text": "It is my belief, Watson, founded upon my experience, that the lowest and vilest alleys in London do not present a more dreadful record of sin than does the smiling and beautiful countryside.",
+      "character": "Sherlock Holmes",
+      "book": "The Adventure of the Copper Beeches",
+      "year": 1892
+    },
+    {
+      "id": "q029",
+      "text": "Violence does, in truth, recoil upon the violent, and the schemer falls into the pit which he digs for another.",
+      "character": "Sherlock Holmes",
+      "book": "The Adventure of the Speckled Band",
+      "year": 1892
+    },
+    {
+      "id": "q030",
+      "text": "I consider that a man's brain originally is like a little empty attic, and you have to stock it with such furniture as you choose.",
+      "character": "Sherlock Holmes",
+      "book": "A Study in Scarlet",
+      "year": 1887
+    },
+    {
+      "id": "q031",
+      "text": "The ideal reasoner would, when he had once been shown a single fact in all its bearings, deduce from it not only all the chain of events which led up to it but also all the results which would follow from it.",
+      "character": "Sherlock Holmes",
+      "book": "The Five Orange Pips",
+      "year": 1891
+    },
+    {
+      "id": "q032",
+      "text": "Education never ends, Watson. It is a series of lessons, with the greatest for the last.",
+      "character": "Sherlock Holmes",
+      "book": "His Last Bow",
+      "year": 1917
+    },
+    {
+      "id": "q033",
+      "text": "I am a brain, Watson. The rest of me is a mere appendix.",
+      "character": "Sherlock Holmes",
+      "book": "The Adventure of the Mazarin Stone",
+      "year": 1921
+    },
+    {
+      "id": "q034",
+      "text": "Work is the best antidote to sorrow, my dear Watson.",
+      "character": "Sherlock Holmes",
+      "book": "The Adventure of the Empty House",
+      "year": 1903
+    },
+    {
+      "id": "q035",
+      "text": "What one man can invent another can discover.",
+      "character": "Sherlock Holmes",
+      "book": "The Adventure of the Dancing Men",
+      "year": 1903
+    },
+    {
+      "id": "q036",
+      "text": "Life is infinitely stranger than anything which the mind of man could invent.",
+      "character": "Sherlock Holmes",
+      "book": "A Case of Identity",
+      "year": 1891
+    },
+    {
+      "id": "q037",
+      "text": "There is nothing more stimulating than a case where everything goes against you.",
+      "character": "Sherlock Holmes",
+      "book": "The Hound of the Baskervilles",
+      "year": 1902
+    },
+    {
+      "id": "q038",
+      "text": "I am not the law, but I represent justice so far as my feeble powers go.",
+      "character": "Sherlock Holmes",
+      "book": "The Adventure of the Three Gables",
+      "year": 1926
+    },
+    {
+      "id": "q039",
+      "text": "I should have more faith. I ought to know by this time that when a fact appears opposed to a long train of deductions it invariably proves to be capable of bearing some other interpretation.",
+      "character": "Sherlock Holmes",
+      "book": "A Study in Scarlet",
+      "year": 1887
+    },
+    {
+      "id": "q040",
+      "text": "The chief proof of man's real greatness lies in his perception of his own smallness.",
+      "character": "Sherlock Holmes",
+      "book": "The Sign of the Four",
+      "year": 1890
+    },
+    {
+      "id": "q041",
+      "text": "We balance probabilities and choose the most likely. It is the scientific use of the imagination.",
+      "character": "Sherlock Holmes",
+      "book": "The Hound of the Baskervilles",
+      "year": 1902
+    },
+    {
+      "id": "q042",
+      "text": "Never trust to general impressions, my boy, but concentrate yourself upon details.",
+      "character": "Sherlock Holmes",
+      "book": "A Case of Identity",
+      "year": 1891
+    },
+    {
+      "id": "q043",
+      "text": "I am glad of all details, whether they seem to you to be relevant or not.",
+      "character": "Sherlock Holmes",
+      "book": "The Adventure of the Copper Beeches",
+      "year": 1892
+    },
+    {
+      "id": "q044",
+      "text": "A man should keep his little brain-attic stocked with all the furniture that he is likely to use, and the rest he can put away in the lumber-room of his library.",
+      "character": "Sherlock Holmes",
+      "book": "The Five Orange Pips",
+      "year": 1891
+    },
+    {
+      "id": "q045",
+      "text": "It is a mistake to confound strangeness with mystery.",
+      "character": "Sherlock Holmes",
+      "book": "A Study in Scarlet",
+      "year": 1887
+    },
+    {
+      "id": "q046",
+      "text": "I never make exceptions. An exception disproves the rule.",
+      "character": "Sherlock Holmes",
+      "book": "The Sign of the Four",
+      "year": 1890
+    },
+    {
+      "id": "q047",
+      "text": "Nothing clears up a case so much as stating it to another person.",
+      "character": "Sherlock Holmes",
+      "book": "The Adventure of Silver Blaze",
+      "year": 1892
+    },
+    {
+      "id": "q048",
+      "text": "Is there any point to which you would wish to draw my attention? To the curious incident of the dog in the night-time. The dog did nothing in the night-time. That was the curious incident.",
+      "character": "Sherlock Holmes",
+      "book": "The Adventure of Silver Blaze",
+      "year": 1892
+    },
+    {
+      "id": "q049",
+      "text": "Some facts should be suppressed, or, at least, a just sense of proportion should be observed in treating them.",
+      "character": "Sherlock Holmes",
+      "book": "The Sign of the Four",
+      "year": 1890
+    },
+    {
+      "id": "q050",
+      "text": "He is the Napoleon of crime, Watson. He is the organizer of half that is evil and of nearly all that is undetected in this great city.",
+      "character": "Sherlock Holmes",
+      "book": "The Final Problem",
+      "year": 1893
+    }
+  ],
+  "cases": [
+    {
+      "id": "c001",
+      "title": "A Study in Scarlet",
+      "type": "Novel",
+      "year": 1887,
+      "description": "The first appearance of Sherlock Holmes and Dr. Watson. Holmes investigates a murder in Brixton, London, unraveling a tale of revenge from the American frontier."
+    },
+    {
+      "id": "c002",
+      "title": "The Sign of the Four",
+      "type": "Novel",
+      "year": 1890,
+      "description": "Holmes helps Miss Mary Morstan solve the mystery of her father's disappearance and the annual gift of pearls she receives from an anonymous benefactor."
+    },
+    {
+      "id": "c003",
+      "title": "The Hound of the Baskervilles",
+      "type": "Novel",
+      "year": 1902,
+      "description": "Holmes investigates the legend of a supernatural hound that haunts the Baskerville family on the moors of Devonshire."
+    },
+    {
+      "id": "c004",
+      "title": "The Valley of Fear",
+      "type": "Novel",
+      "year": 1915,
+      "description": "A coded message leads Holmes to investigate a murder at Birlstone Manor, with connections to Professor Moriarty."
+    },
+    {
+      "id": "c005",
+      "title": "A Scandal in Bohemia",
+      "type": "Short Story",
+      "year": 1891,
+      "description": "The King of Bohemia hires Holmes to recover a compromising photograph from the clever Irene Adler, 'the woman' who outwits Holmes."
+    },
+    {
+      "id": "c006",
+      "title": "The Adventure of the Speckled Band",
+      "type": "Short Story",
+      "year": 1892,
+      "description": "Holmes investigates the mysterious death of a young woman and the strange sounds heard at night in Stoke Moran."
+    },
+    {
+      "id": "c007",
+      "title": "The Red-Headed League",
+      "type": "Short Story",
+      "year": 1891,
+      "description": "A pawnbroker with flaming red hair consults Holmes about a mysterious organization that paid him to copy the Encyclopaedia Britannica."
+    },
+    {
+      "id": "c008",
+      "title": "The Final Problem",
+      "type": "Short Story",
+      "year": 1893,
+      "description": "Holmes confronts his arch-nemesis Professor Moriarty at the Reichenbach Falls in Switzerland, in what was intended to be his final case."
+    },
+    {
+      "id": "c009",
+      "title": "The Adventure of the Blue Carbuncle",
+      "type": "Short Story",
+      "year": 1892,
+      "description": "A precious gem found inside a Christmas goose leads Holmes through the streets of London to uncover a theft."
+    },
+    {
+      "id": "c010",
+      "title": "The Adventure of the Empty House",
+      "type": "Short Story",
+      "year": 1903,
+      "description": "Holmes returns from the dead to capture Colonel Sebastian Moran, Moriarty's chief of staff, and explain his survival at Reichenbach Falls."
+    },
+    {
+      "id": "c011",
+      "title": "The Five Orange Pips",
+      "type": "Short Story",
+      "year": 1891,
+      "description": "A young man seeks Holmes's help after receiving five orange pips, the same omen that preceded the deaths of his uncle and father. Holmes uncovers a deadly connection to the Ku Klux Klan."
+    },
+    {
+      "id": "c012",
+      "title": "A Case of Identity",
+      "type": "Short Story",
+      "year": 1891,
+      "description": "A young woman consults Holmes about her missing fiancé, leading to a revelation about deception within her own family."
+    },
+    {
+      "id": "c013",
+      "title": "The Man with the Twisted Lip",
+      "type": "Short Story",
+      "year": 1891,
+      "description": "Holmes investigates the disappearance of a respectable businessman who was last seen in an opium den in the East End of London."
+    },
+    {
+      "id": "c014",
+      "title": "The Adventure of the Noble Bachelor",
+      "type": "Short Story",
+      "year": 1892,
+      "description": "Lord Robert St. Simon's bride vanishes during the wedding breakfast, leading Holmes to uncover secrets from her past in America."
+    },
+    {
+      "id": "c015",
+      "title": "The Adventure of the Beryl Coronet",
+      "type": "Short Story",
+      "year": 1892,
+      "description": "A banker entrusts Holmes with recovering three missing gems from a royal treasure, discovering that appearances can be dangerously deceiving."
+    },
+    {
+      "id": "c016",
+      "title": "The Adventure of Silver Blaze",
+      "type": "Short Story",
+      "year": 1892,
+      "description": "Holmes investigates the disappearance of a famous racehorse and the murder of its trainer on the eve of an important race on Dartmoor."
+    },
+    {
+      "id": "c017",
+      "title": "The Adventure of the Cardboard Box",
+      "type": "Short Story",
+      "year": 1893,
+      "description": "A spinster receives a package containing two severed human ears preserved in salt, leading Holmes into a tale of jealousy and murder."
+    },
+    {
+      "id": "c018",
+      "title": "The Yellow Face",
+      "type": "Short Story",
+      "year": 1893,
+      "description": "A husband suspects his wife of infidelity after seeing a strange yellow face at the window of a neighboring cottage. One of Holmes's rare miscalculations."
+    },
+    {
+      "id": "c019",
+      "title": "The Stockbroker's Clerk",
+      "type": "Short Story",
+      "year": 1893,
+      "description": "A newly employed clerk discovers his suspiciously generous job offer is part of an elaborate criminal scheme."
+    },
+    {
+      "id": "c020",
+      "title": "The Gloria Scott",
+      "type": "Short Story",
+      "year": 1893,
+      "description": "Holmes recounts his very first case to Watson, involving a cryptic message that caused an old man to die of fright and revealed dark secrets from a prison ship."
+    },
+    {
+      "id": "c021",
+      "title": "The Musgrave Ritual",
+      "type": "Short Story",
+      "year": 1893,
+      "description": "Holmes solves an ancient family riddle that leads to a royal treasure hidden since the English Civil War, connected to the execution of Charles I."
+    },
+    {
+      "id": "c022",
+      "title": "The Reigate Squire",
+      "type": "Short Story",
+      "year": 1893,
+      "description": "During a rest cure after a difficult case, Holmes is drawn into a local mystery involving a murdered coachman and a torn scrap of paper."
+    },
+    {
+      "id": "c023",
+      "title": "The Crooked Man",
+      "type": "Short Story",
+      "year": 1893,
+      "description": "A respected British Army colonel is found dead, his wife arrested for murder, but Holmes discovers a shocking secret from the Indian Mutiny."
+    },
+    {
+      "id": "c024",
+      "title": "The Resident Patient",
+      "type": "Short Story",
+      "year": 1893,
+      "description": "A young doctor's mysterious benefactor is found hanged in his room, revealing his involvement with a dangerous gang of criminals."
+    },
+    {
+      "id": "c025",
+      "title": "The Greek Interpreter",
+      "type": "Short Story",
+      "year": 1893,
+      "description": "Mycroft Holmes introduces a case involving a Greek interpreter who was kidnapped and forced to participate in a sinister interrogation."
+    },
+    {
+      "id": "c026",
+      "title": "The Naval Treaty",
+      "type": "Short Story",
+      "year": 1893,
+      "description": "A Foreign Office clerk faces ruin after a secret naval treaty is stolen from his desk, and Holmes must recover it before it reaches foreign powers."
+    },
+    {
+      "id": "c027",
+      "title": "The Adventure of the Dancing Men",
+      "type": "Short Story",
+      "year": 1903,
+      "description": "Holmes deciphers a mysterious code of dancing stick figures to protect a woman from her dangerous past in Chicago's criminal underworld."
+    },
+    {
+      "id": "c028",
+      "title": "The Adventure of the Solitary Cyclist",
+      "type": "Short Story",
+      "year": 1903,
+      "description": "A young music teacher is stalked by a mysterious cyclist on a lonely country road, leading Holmes to uncover a plot involving her inheritance."
+    },
+    {
+      "id": "c029",
+      "title": "The Adventure of the Priory School",
+      "type": "Short Story",
+      "year": 1904,
+      "description": "The son of a Duke vanishes from an exclusive school along with a German master. Holmes follows the trail of bicycle tracks across the moor."
+    },
+    {
+      "id": "c030",
+      "title": "The Adventure of Black Peter",
+      "type": "Short Story",
+      "year": 1904,
+      "description": "A retired sea captain is found pinned to the wall of his cabin by a harpoon. Holmes investigates his violent past in the Arctic whaling trade."
+    },
+    {
+      "id": "c031",
+      "title": "The Boscombe Valley Mystery",
+      "type": "Short Story",
+      "year": 1891,
+      "description": "A young man is accused of murdering his father near a country pool. Holmes uncovers a tale of blackmail and secrets from the Australian goldfields."
+    },
+    {
+      "id": "c032",
+      "title": "The Adventure of the Engineer's Thumb",
+      "type": "Short Story",
+      "year": 1892,
+      "description": "A hydraulic engineer loses his thumb escaping from a counterfeiting operation, leading Holmes to a remote countryside manor."
+    },
+    {
+      "id": "c033",
+      "title": "The Adventure of the Copper Beeches",
+      "type": "Short Story",
+      "year": 1892,
+      "description": "A governess consults Holmes about her employer's bizarre requests, including cutting her hair short. Holmes discovers dark secrets behind the mansion's walls."
+    },
+    {
+      "id": "c034",
+      "title": "The Adventure of the Norwood Builder",
+      "type": "Short Story",
+      "year": 1903,
+      "description": "A young lawyer is accused of murdering a client whose charred remains are found in a burning building. Holmes must prove the man is being framed."
+    },
+    {
+      "id": "c035",
+      "title": "The Adventure of Charles Augustus Milverton",
+      "type": "Short Story",
+      "year": 1904,
+      "description": "Holmes confronts the worst blackmailer in London, a man he considers more repulsive than any murderer. A midnight burglary leads to unexpected violence."
+    },
+    {
+      "id": "c036",
+      "title": "The Adventure of the Six Napoleons",
+      "type": "Short Story",
+      "year": 1904,
+      "description": "Someone is systematically destroying plaster busts of Napoleon across London. Holmes discovers the connection to a famous stolen pearl."
+    },
+    {
+      "id": "c037",
+      "title": "The Adventure of the Three Students",
+      "type": "Short Story",
+      "year": 1904,
+      "description": "An examination paper is copied before a crucial scholarship test at a university. Holmes identifies the culprit through careful observation of evidence."
+    },
+    {
+      "id": "c038",
+      "title": "The Adventure of the Golden Pince-Nez",
+      "type": "Short Story",
+      "year": 1904,
+      "description": "A professor's secretary is murdered, and the only clue is a pair of golden spectacles. Holmes uncovers a tale of Russian revolutionaries and hidden identities."
+    },
+    {
+      "id": "c039",
+      "title": "The Adventure of the Missing Three-Quarter",
+      "type": "Short Story",
+      "year": 1904,
+      "description": "A star rugby player vanishes before a crucial match. Holmes's investigation reveals a secret marriage and a tragic illness."
+    },
+    {
+      "id": "c040",
+      "title": "The Adventure of the Abbey Grange",
+      "type": "Short Story",
+      "year": 1904,
+      "description": "A brutal aristocrat is killed during an apparent burglary. Holmes suspects the truth is more complex and must weigh justice against the law."
+    },
+    {
+      "id": "c041",
+      "title": "The Adventure of the Second Stain",
+      "type": "Short Story",
+      "year": 1904,
+      "description": "A vital diplomatic letter is stolen that could trigger a European war. Holmes must recover it while protecting an aristocratic lady's honor."
+    },
+    {
+      "id": "c042",
+      "title": "The Adventure of Wisteria Lodge",
+      "type": "Short Story",
+      "year": 1908,
+      "description": "A man's host vanishes overnight, leaving behind a murdered cook and mysterious clues pointing to a South American dictator's vendetta."
+    },
+    {
+      "id": "c043",
+      "title": "The Adventure of the Red Circle",
+      "type": "Short Story",
+      "year": 1911,
+      "description": "A mysterious lodger communicates only through candlelight signals. Holmes uncovers a tale of Italian secret societies and murder in New York."
+    },
+    {
+      "id": "c044",
+      "title": "The Adventure of the Bruce-Partington Plans",
+      "type": "Short Story",
+      "year": 1908,
+      "description": "A young clerk is found dead on the Underground with stolen submarine plans in his pocket. Mycroft Holmes enlists his brother to protect national security."
+    },
+    {
+      "id": "c045",
+      "title": "The Adventure of the Dying Detective",
+      "type": "Short Story",
+      "year": 1913,
+      "description": "Holmes appears to be dying from a rare tropical disease. Watson watches helplessly as his friend's killer approaches, unaware of Holmes's masterful deception."
+    },
+    {
+      "id": "c046",
+      "title": "The Disappearance of Lady Frances Carfax",
+      "type": "Short Story",
+      "year": 1911,
+      "description": "A wealthy spinster vanishes while traveling in Europe. Holmes races against time to save her from a sinister couple's elaborate scheme."
+    },
+    {
+      "id": "c047",
+      "title": "The Adventure of the Devil's Foot",
+      "type": "Short Story",
+      "year": 1910,
+      "description": "During a Cornish holiday, Holmes investigates a case where one sibling died of fright and two others were driven mad, all without apparent cause."
+    },
+    {
+      "id": "c048",
+      "title": "His Last Bow",
+      "type": "Short Story",
+      "year": 1917,
+      "description": "On the eve of World War I, an elderly Holmes emerges from retirement to capture a German spy and deliver crucial intelligence to the British government."
+    },
+    {
+      "id": "c049",
+      "title": "The Adventure of the Illustrious Client",
+      "type": "Short Story",
+      "year": 1924,
+      "description": "Holmes is hired to break off an engagement between a young woman and a notorious Austrian murderer. The case leads to vitriol and violence."
+    },
+    {
+      "id": "c050",
+      "title": "The Adventure of the Blanched Soldier",
+      "type": "Short Story",
+      "year": 1926,
+      "description": "A soldier's friend has vanished after returning from the Boer War. Holmes, narrating his own case, discovers a tragic secret hidden by the family."
+    },
+    {
+      "id": "c051",
+      "title": "The Adventure of the Mazarin Stone",
+      "type": "Short Story",
+      "year": 1921,
+      "description": "Holmes must recover the stolen Crown diamond from Count Negretto Sylvius using a clever trick involving a wax dummy of himself."
+    },
+    {
+      "id": "c052",
+      "title": "The Adventure of the Three Gables",
+      "type": "Short Story",
+      "year": 1926,
+      "description": "An elderly woman is pressured to sell her house with all its contents. Holmes discovers a connection to a scandalous manuscript and a vengeful ex-lover."
+    },
+    {
+      "id": "c053",
+      "title": "The Adventure of the Sussex Vampire",
+      "type": "Short Story",
+      "year": 1924,
+      "description": "A mother is caught apparently drinking blood from her infant's neck. Holmes applies logic to debunk the supernatural and reveal the true culprit."
+    },
+    {
+      "id": "c054",
+      "title": "The Adventure of the Three Garridebs",
+      "type": "Short Story",
+      "year": 1924,
+      "description": "An American seeks two other men named Garrideb to share an inheritance. Holmes exposes the scheme and Watson is wounded protecting his friend."
+    },
+    {
+      "id": "c055",
+      "title": "The Problem of Thor Bridge",
+      "type": "Short Story",
+      "year": 1922,
+      "description": "A governess is accused of murdering her employer's wife. Holmes solves the puzzle of how a gun vanished from a bridge during the crime."
+    },
+    {
+      "id": "c056",
+      "title": "The Adventure of the Creeping Man",
+      "type": "Short Story",
+      "year": 1923,
+      "description": "A professor's strange nocturnal behavior terrifies his household. Holmes discovers an experiment with monkey glands has caused disturbing transformations."
+    },
+    {
+      "id": "c057",
+      "title": "The Adventure of the Lion's Mane",
+      "type": "Short Story",
+      "year": 1926,
+      "description": "In his Sussex retirement, Holmes investigates from the death of a man who died screaming about a lion's mane. Nature proves deadlier than crime."
+    },
+    {
+      "id": "c058",
+      "title": "The Adventure of the Veiled Lodger",
+      "type": "Short Story",
+      "year": 1927,
+      "description": "A horribly disfigured woman confesses to Holmes her role in her husband's death by a circus lion, seeking absolution rather than investigation."
+    },
+    {
+      "id": "c059",
+      "title": "The Adventure of Shoscombe Old Place",
+      "type": "Short Story",
+      "year": 1927,
+      "description": "A horse trainer's suspicious behavior around his sister's estate leads Holmes to uncover a desperate gamble involving a corpse and a racing fortune."
+    },
+    {
+      "id": "c060",
+      "title": "The Adventure of the Retired Colourman",
+      "type": "Short Story",
+      "year": 1926,
+      "description": "An elderly man's wife and neighbor vanish with his savings. Holmes uncovers a far darker crime behind the apparent betrayal."
+    }
+  ],
+  "characters": [
+    {
+      "id": "ch001",
+      "name": "Sherlock Holmes",
+      "role": "Consulting Detective",
+      "description": "The world's only consulting detective. A brilliant, eccentric genius with exceptional powers of observation and deduction. Lives at 221B Baker Street, London."
+    },
+    {
+      "id": "ch002",
+      "name": "Dr. John Watson",
+      "role": "Narrator & Companion",
+      "description": "A former British Army doctor who served in Afghanistan. Holmes's loyal friend, flatmate, and chronicler of his adventures. His practical nature contrasts with Holmes's eccentricity."
+    },
+    {
+      "id": "ch003",
+      "name": "Professor James Moriarty",
+      "role": "Criminal Mastermind",
+      "description": "The Napoleon of Crime. A mathematics professor who controls a vast criminal network across London. Holmes considers him his intellectual equal and greatest adversary."
+    },
+    {
+      "id": "ch004",
+      "name": "Mrs. Hudson",
+      "role": "Landlady",
+      "description": "The patient landlady of 221B Baker Street who tolerates Holmes's eccentric habits, including bullet holes in the wall and chemical experiments at odd hours."
+    },
+    {
+      "id": "ch005",
+      "name": "Inspector Lestrade",
+      "role": "Scotland Yard Detective",
+      "description": "A Scotland Yard inspector who often seeks Holmes's assistance on difficult cases. Though lacking Holmes's brilliance, he is tenacious and reliable."
+    },
+    {
+      "id": "ch006",
+      "name": "Irene Adler",
+      "role": "Opera Singer",
+      "description": "An American opera singer and adventuress who outwitted Holmes in 'A Scandal in Bohemia'. The only woman to ever earn Holmes's genuine admiration, referred to as 'the woman'."
+    },
+    {
+      "id": "ch007",
+      "name": "Mycroft Holmes",
+      "role": "Government Official",
+      "description": "Sherlock's elder brother, possessing even greater deductive powers but lacking the energy to apply them. Holds a unique position in the British government."
+    },
+    {
+      "id": "ch008",
+      "name": "Colonel Sebastian Moran",
+      "role": "Moriarty's Lieutenant",
+      "description": "The second most dangerous man in London after Moriarty. A former Indian Army officer and big-game hunter, he serves as Moriarty's chief of staff and assassin."
+    }
+  ]
+}
