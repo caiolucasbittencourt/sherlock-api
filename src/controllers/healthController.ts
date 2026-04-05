@@ -4,7 +4,7 @@ import { HealthResponse } from "../models";
 const startTime = Date.now();
 
 export class HealthController {
-  /**
+  /*
    * GET /api/v1/health
    * API health monitoring endpoint
    */

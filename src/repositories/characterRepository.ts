@@ -2,10 +2,6 @@ import { Character } from "../models";
 import { ICharacterRepository } from "./interfaces";
 import data from "../data/data.json";
 
-/**
- * Character repository implementation using JSON file
- * To switch to a database, create a new class implementing ICharacterRepository
- */
 export class JsonCharacterRepository implements ICharacterRepository {
   private characters: Character[];
 

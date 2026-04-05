@@ -5,9 +5,9 @@ import { ICharacterRepository } from "../repositories";
 export class CharacterController {
   constructor(private characterRepository: ICharacterRepository) {}
 
-  /**
+  /*
    * GET /api/v1/characters
-   * Lista todos os personagens
+   * List all characters
    */
   getCharacters = async (
     _req: Request,

@@ -2,7 +2,7 @@ import { Request, Response, NextFunction } from "express";
 import { ZodError } from "zod";
 import { ApiError } from "../models";
 
-/**
+/*
  * Global error handler middleware
  */
 export function errorHandler(

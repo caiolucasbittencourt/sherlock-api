@@ -2,10 +2,6 @@ import { Case, CaseFilter } from "../models";
 import { ICaseRepository } from "./interfaces";
 import data from "../data/data.json";
 
-/**
- * Case repository implementation using JSON file
- * To switch to a database, create a new class implementing ICaseRepository
- */
 export class JsonCaseRepository implements ICaseRepository {
   private cases: Case[];
 

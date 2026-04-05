@@ -5,9 +5,9 @@ import { ICaseRepository } from "../repositories";
 export class CaseController {
   constructor(private caseRepository: ICaseRepository) {}
 
-  /**
+  /*
    * GET /api/v1/cases
-   * Lista todos os casos com filtros opcionais por tipo
+   * List all cases with optional filters by type
    */
   getCases = async (
     req: Request,

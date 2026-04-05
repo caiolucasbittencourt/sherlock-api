@@ -12,15 +12,10 @@ interface RateLimitOptions {
   maxRequests: number;
 }
 
-/**
- * Simple Rate Limiting middleware
- * Uses in-memory storage for counts (suitable for Vercel serverless)
- */
 export function createRateLimiter(options: RateLimitOptions) {
   const { windowMs, maxRequests } = options;
   const store: RateLimitStore = {};
 
-  // Limpa entradas expiradas periodicamente
   setInterval(() => {
     const now = Date.now();
     for (const key of Object.keys(store)) {
@@ -37,7 +32,6 @@ export function createRateLimiter(options: RateLimitOptions) {
 
     let entry = store[key];
 
-    // If entry doesn't exist or window expired, create new one
     if (!entry || entry.resetTime < now) {
       entry = {
         count: 1,

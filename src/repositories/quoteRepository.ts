@@ -2,10 +2,6 @@ import { Quote, SearchResult } from "../models";
 import { IQuoteRepository } from "./interfaces";
 import data from "../data/data.json";
 
-/**
- * Quote repository implementation using JSON file
- * To switch to a database, create a new class implementing IQuoteRepository
- */
 export class JsonQuoteRepository implements IQuoteRepository {
   private quotes: Quote[];
 

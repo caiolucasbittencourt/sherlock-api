@@ -5,7 +5,7 @@ import { IQuoteRepository } from "../repositories";
 export class QuoteController {
   constructor(private quoteRepository: IQuoteRepository) {}
 
-  /**
+  /*
    * GET /api/v1/quotes/random
    * Returns a random quote
    */
@@ -30,7 +30,7 @@ export class QuoteController {
     }
   };
 
-  /**
+  /*
    * GET /api/v1/search?q=term
    * Search by keywords in all quotes
    */
