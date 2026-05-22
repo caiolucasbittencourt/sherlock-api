@@ -117,4 +117,4 @@ print(data['data']['text'])
 
 All data is from the works of **Arthur Conan Doyle**, which are in the **Public Domain**.
 
-Source code is licensed under **MIT**.
+Source code is licensed under **[MIT](LICENSE)**.
