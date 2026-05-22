@@ -16,7 +16,7 @@ export function createRateLimiter(options: RateLimitOptions) {
   const { windowMs, maxRequests } = options;
   const store: RateLimitStore = {};
 
-  setInterval(() => {
+  const cleanupInterval = setInterval(() => {
     const now = Date.now();
     for (const key of Object.keys(store)) {
       const entry = store[key];
@@ -25,6 +25,7 @@ export function createRateLimiter(options: RateLimitOptions) {
       }
     }
   }, windowMs);
+  cleanupInterval.unref?.();
 
   return (req: Request, res: Response, next: NextFunction): void => {
     const key = req.ip ?? req.socket.remoteAddress ?? "unknown";
