@@ -8,7 +8,7 @@ app.listen(PORT, () => {
   console.log(`
 ╔═══════════════════════════════════════════════════════════════╗
 ║                                                               ║
-║   Sherlock API                                         ║
+║   Sherlock Holmes API                                         ║
 ║                                                               ║
 ║   Server running at http://localhost:${PORT}                     ║
 ║   Documentation at  http://localhost:${PORT}/docs                ║

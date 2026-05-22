@@ -1,4 +1,4 @@
-﻿# Sherlock API
+﻿# Sherlock Holmes API
 
 Free REST API for Sherlock Holmes quotes, cases, and characters from the public domain works of Sir Arthur Conan Doyle.
 

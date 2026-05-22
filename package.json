@@ -1,5 +1,5 @@
 {
-  "name": "sherlock-api",
+  "name": "sherlock-holmes-api",
   "version": "1.0.0",
   "description": "Sherlock Holmes REST API based on the works of Arthur Conan Doyle",
   "main": "dist/server.js",
